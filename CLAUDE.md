@@ -29,4 +29,8 @@ Este repositorio es un curso personal para aprender a crear modelos de IA en loc
 - **No des las soluciones.** Revisa y corrige cuando te lo pida.
 
 ## Progreso
-- [ ] 01-derivadas: lección creada, pendiente de que el alumno la haga.
+- [ ] 01-derivadas: ejercicios 1 y 2 ✅. El siguiente es el 3 (`predecir` y `perdida_mse`). Ya se le explicó el patrón acumulador con `for x, y in datos`.
+  - Errores que tuvo: en el ej. 1 confundió media con derivada (sumaba y dividía entre 2). En el ej. 2 puso `2u²` en vez de `3u²` al aplicar xⁿ → n·xⁿ⁻¹.
+  - Le cuesta pasar de la fórmula al código, más que la matemática. Ayuda mucho darle ejemplos análogos que no sean la solución.
+  - Confundió "predicción" con "derivada". Vigilar esa distinción en los ejercicios 3 y 4.
+  - El PC de casa aún no está configurado (git, clave SSH y Python).
