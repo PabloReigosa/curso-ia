@@ -1,0 +1,23 @@
+# Entornos virtuales (se recrean en cada máquina con requirements.txt)
+.venv/
+venv/
+ia/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Archivos pesados: NUNCA a git
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.ckpt
+data/
+modelos/
+checkpoints/
+
+# Secretos
+.env
