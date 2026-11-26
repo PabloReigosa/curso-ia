@@ -28,6 +28,9 @@ def derivada_numerica(f, x, h=1e-5):
     `f` es una función de Python que recibe un número y devuelve un número.
     Ejemplo: derivada_numerica(lambda x: x**2, 3.0)  ->  ≈ 6.0
     """
+    derecha = f(x + h)
+    izquierda = f(x - h)
+    return (derecha - izquierda)/ (2*h)
     raise NotImplementedError
 
 
@@ -42,6 +45,8 @@ def derivada_cadena(x):
     Pista: llama u = 2x − 5. Calcula dL/du y du/dx, y multiplícalas.
     Escribe en un comentario la fórmula que te sale.
     """
+    # u = 2x - 5 -> dL/du = 3u**2 du/dx = 2 -> dL/dx = 6(2x-5)**2
+    return 6*((2*x)-5)**2
     raise NotImplementedError
 
 
